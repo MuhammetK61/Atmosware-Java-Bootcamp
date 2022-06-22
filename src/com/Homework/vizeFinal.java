@@ -14,6 +14,8 @@ public class vizeFinal {
         int finalNot, vizeNot, ortalama;
 
         System.out.println("Lutfen vize notunuzu giriniz: ");
+
+        //Vize notu sıfırdan küçük girildiği her sefer yeni vize notu ister.
         while(true){
             vizeNot = klavye.nextInt();
             if (vizeNot<0){
@@ -24,6 +26,8 @@ public class vizeFinal {
         }
 
         System.out.println("Lutfen final notunuzu giriniz:");
+
+        //Final notunun sıfırdan küçük girildiği her sefer yeni final notu ister.
         while(true){
             finalNot = klavye.nextInt();
             if (finalNot<0){
