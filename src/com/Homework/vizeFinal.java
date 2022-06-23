@@ -9,9 +9,14 @@ public class vizeFinal {
     // not ortalaması: 55<=x<=70 BB
     // not ortalaması: 70<=x<=84 BA
     // not ortalaması: 84<=x<=100 AA
-    public static void main(String[] args) {
+
+
+    //while sonsuz dongü  => while(true){}
+    //for sonsız döngü = for(;;){}
+    public static void vizeFinalNot(){
         Scanner klavye = new Scanner(System.in);
-        int finalNot, vizeNot, ortalama;
+        int finalNot, vizeNot;
+        double ortalama=0;
 
         System.out.println("Lutfen vize notunuzu giriniz: ");
 
@@ -37,12 +42,10 @@ public class vizeFinal {
             }
         }
 
-        ortalama = (vizeNot + finalNot)/2;
+        ortalama = Math.round((vizeNot*0.4) + (finalNot*0.6));
 
-        if(0<= ortalama && ortalama<50){
-            System.out.println("Kaldiniz! Ortalamaniz:" + ortalama);
-        }else if(ortalama == 50){
-            System.out.println("Gectiniz! Ortalamaniz:" + ortalama);
+        if(0<=ortalama && ortalama <= 54){
+            System.out.println("Kaldiniz! Ortalamaniz:" + ortalama + " Harf Notunuz: FF");
         }else if(55<=ortalama && ortalama<=70){
             System.out.println("Gectiniz! Ortalamaniz: " + ortalama + " Harf Notunuz: BB");
         }else if(70<= ortalama && ortalama <= 84){
@@ -52,5 +55,9 @@ public class vizeFinal {
         }else {
             System.out.println("Hatali bilgi girdiniz");
         }
+
+    }
+    public static void main(String[] args) {
+        vizeFinalNot();
     }
 }
