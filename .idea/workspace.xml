@@ -1,16 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026b4c70-a396-4826-a597-701a650d9500" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="026b4c70-a396-4826-a597-701a650d9500" name="Changes" comment="String Reverse">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Alistirmalar/AllCodesJar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Alistirmalar/DateYapisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Alistirmalar/RandomUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Homework/AklindaBirSayiTut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Homework/Radar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Homework/RegisterPasswordMask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Homework/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Homework/StringReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AwOscge1hFC5C1zXqQ1lXRo64H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.RandomUID">
+    <configuration name="AklindaBirSayiTut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Homework.AklindaBirSayiTut" />
+      <module name="TurkcellJavaBootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateYapisi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Alistirmalar.DateYapisi" />
+      <module name="TurkcellJavaBootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Alistirmalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomUID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Alistirmalar.RandomUID" />
+      <module name="TurkcellJavaBootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Alistirmalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPasswordMask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Homework.RegisterPasswordMask" />
+      <module name="TurkcellJavaBootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Homework.StringReverse" />
+      <module name="TurkcellJavaBootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RandomUID" />
+        <item itemvalue="Application.DateYapisi" />
+        <item itemvalue="Application.RegisterPasswordMask" />
+        <item itemvalue="Application.StringReverse" />
+        <item itemvalue="Application.AklindaBirSayiTut" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="026b4c70-a396-4826-a597-701a650d9500" name="Changes" comment="" />
+      <created>1655917400797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655917400797</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Homework">
+      <created>1655917618478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655917618478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Methodlar">
+      <created>1655969273463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655969273463</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Random number">
+      <created>1655969308274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655969308274</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Try-catch">
+      <created>1655970181177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655970181177</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Try-catch">
+      <created>1655975240805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655975240805</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Formatter">
+      <created>1655975260565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655975260565</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Öğrenci kaldı geçti uygulaması">
+      <created>1655977629063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655977629063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Koşullu random sayı">
+      <created>1655977661189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655977661189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="String Reverse">
+      <created>1656010361267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656010361267</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework" />
+    <MESSAGE value="Methodlar" />
+    <MESSAGE value="Random number" />
+    <MESSAGE value="Try-catch" />
+    <MESSAGE value="Formatter" />
+    <MESSAGE value="Öğrenci kaldı geçti uygulaması" />
+    <MESSAGE value="Koşullu random sayı" />
+    <MESSAGE value="String Reverse" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Reverse" />
   </component>
 </project>
