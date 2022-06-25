@@ -1,23 +1,39 @@
 package com.Homework;
 
 import java.util.Scanner;
-
+// Kullanıcıdan aldığı kelimeyi tersten yazdıran algoritma
+//kelime kaç harfli
 public class StringReverse {
-    public static void main(String[] args){
+
+    //Kullanıcıdan alınan data
+    public static String scannerValueData(){
         Scanner klavye =new Scanner(System.in);
-        System.out.println("Bir kelime giriniz:");
-        String str = klavye.next();
-
-        System.out.println("Kelimenizin Ters hali:" +reverseStr(str));
-
+        System.out.println("\n Bir kelime giriniz:");
+        String value = klavye.nextLine();
+        return value;
     }
 
-    public static String reverseStr(String str){
-        String result = "";
-        for (int i=str.length()-1;i>=0;i--){
-            result+=str.charAt(i);
+    //girilen kelimeyi tersten yazdırma
+    public static String stringReverse(){
+        String temp=""; //nullPointerException
+        try {
+            String data=scannerValueData();
+            for (int i=data.length()-1;i>=0;i--){
+                temp+=data.charAt(i);
+            }
+            System.out.println(temp);
+        }catch (Exception e){
+            e.printStackTrace();
         }
-        return result;
+        return temp;
+    }
+
+    //main method
+    public static void main(String[] args){
+        for(;;){
+            StringReverse reverse = new StringReverse();
+            reverse.stringReverse();
+        }
     }
 }
 
