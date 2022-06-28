@@ -54,6 +54,8 @@ public class Decoder_Encoder {
 
 
     public static void main(String[] args) {
-        encoderDecoderMainMethod();
+        for (;;){
+            encoderDecoderMainMethod();
+        }
     }
 }
