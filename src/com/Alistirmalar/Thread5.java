@@ -8,17 +8,17 @@ public class Thread5 {
         Thread3 multiple2 = new Thread3("2.instance");
         Thread3 multiple3 = new Thread3("3.instance");
 
-        // Öncelik sýrasý
+        // Öncelik sirasi
         multiple1.setPriority(Thread.MAX_PRIORITY);
         multiple2.setPriority(Thread.MIN_PRIORITY);
         multiple3.setPriority(Thread.NORM_PRIORITY);
 
-        // start() önce thread yaþamaz
+        // start() önce thread yasamaz
         // System.out.println("1. thread " + multiple1.isAlive());
 
         multiple1.start();
-        // öncelikle thread 1 bitmesi gerekiyor 1.thread bittikten sonra diðerleri
-        // baþlar
+        // öncelikle thread 1 bitmesi gerekiyor 1.thread bittikten sonra digerleri
+        // baslar
         multiple1.join();
         System.out.println("1.Thread ID: " + multiple1.getId());
         System.out.println("1.Thread ID: " + multiple1.getName());
