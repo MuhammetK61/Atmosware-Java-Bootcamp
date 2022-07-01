@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Scanner;
 
+
+
 //ODEV
 
 // step.1 -) File icin CRUD islemi yapacak bir algoritma yapınız ?
@@ -82,6 +84,11 @@ public class FileIO4_FileCommonExamples {
     }
 
     // data Merge
+    //StringBuilder sınıfı metinsel ifadeleri birleştirmek için kullanılır
+    //append sona ekleme yapar.
+    //Burada turkcell klasorune .txt uzantili bir dosya olustururuz
+    //daha sonra bunu createPath metoduna cagirip kullanırız
+
     private static String dataMerge(String data) {
         StringBuilder builder = new StringBuilder();
         builder.append("C:\\turkcell\\").append(data).append(".txt");
